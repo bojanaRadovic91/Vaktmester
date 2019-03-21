@@ -1,7 +1,9 @@
-package cubes.vaktmester.radovic;
+package cubes.vaktmester.radovic.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import cubes.vaktmester.radovic.R;
 
 public class LoadingActivity extends AppCompatActivity {
 
