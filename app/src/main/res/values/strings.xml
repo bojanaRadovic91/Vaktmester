@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vaktmester</string>
+    <string name="choose_lang">Choose your language</string>
+    <string name="button_confirm">CONFIRM</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="button_log_in">LOG IN</string>
+    <string name="title_one">Title one</string>
+    <string name="title_one_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="title_two">Title two</string>
+    <string name="forgot_passw">Forgot your password?</string>
+    <string name="email_address">Your email address</string>
+    <string name="butt_confirm">CONFIRM</string>
+    <string name="description">Just go to your email inbox, look out for the email, and click on the confirmation link.
+
+
+        Then your all set!</string>
+
+</resources>
