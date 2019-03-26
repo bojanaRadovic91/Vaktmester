@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/blue">
 
-    <TextView android:id="@+id/textViewTitleTwo"
+    <TextView
         android:layout_width="108dp"
         android:layout_height="36dp"
         android:text="@string/title_two"
@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="75dp"/>
 
-    <ImageView android:id="@+id/imageViewTwo"
+    <ImageView
         android:layout_width="52dp"
         android:layout_height="62dp"
         android:src="@drawable/title_two"
