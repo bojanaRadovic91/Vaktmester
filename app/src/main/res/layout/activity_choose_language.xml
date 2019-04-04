@@ -6,7 +6,7 @@
     android:background="@color/blue"
     android:orientation="vertical">
 
-    <TextView
+    <TextView android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -21,7 +21,7 @@
         android:layout_marginRight="102dp"
         android:layout_gravity="center"
         android:textAllCaps="false"/>
-    <ImageView
+    <ImageView android:id="@+id/imageView"
         android:layout_width="63dp"
         android:layout_height="63dp"
         android:layout_marginRight="148dp"

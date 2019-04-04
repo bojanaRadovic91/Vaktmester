@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/blue">
+
+        
+        <ImageView android:id="@+id/imageBuildings"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/buildings" />
+
+        <ImageView android:id="@+id/imageTimesheet"
+            android:layout_width="51dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="222.36dp"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/timesheet"/>
+        
+        <ImageView android:id="@+id/imageMore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/more"/>
+
+        <TextView android:id="@+id/textBuildings"
+            android:layout_width="81dp"
+            android:layout_height="25dp"
+            android:text="@string/text_buildings"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <TextView android:id="@+id/textTimesheet"
+            android:layout_width="89dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="240dp"
+            android:gravity="center"
+            android:text="@string/text_timesheet"
+            android:textSize="18dp"/>
+        
+        <ImageView android:id="@+id/imageTickets"
+            android:layout_width="59dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/tickets" />
+        
+        <ImageView android:id="@+id/imageChat"
+            android:layout_width="59dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/chat"/>
+        
+        <TextView android:id="@+id/textTickets"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:text="@string/text_tickets"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+        
+        <TextView android:id="@+id/textChat"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:text="@string/text_chat"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="260dp"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="670dp"
+            android:layout_marginLeft="140dp" />
+
+
+
+        
+        
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+ 
+
+
+</FrameLayout>

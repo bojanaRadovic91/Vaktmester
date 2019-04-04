@@ -34,7 +34,7 @@
         android:src="@drawable/oval3"/>
 </LinearLayout>
 
-    <EditText
+    <EditText android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:hint="Username"
@@ -47,7 +47,7 @@
         android:textAllCaps="false"
         android:background="@drawable/drawable_spinner_background" />
 
-    <EditText
+    <EditText android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:hint="Password"
@@ -60,7 +60,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/drawable_spinner_background"/>
 
-    <TextView
+    <TextView android:id="@+id/textView"
         android:layout_width="155dp"
         android:layout_height="20dp"
         android:text="@string/forgot_your_password"

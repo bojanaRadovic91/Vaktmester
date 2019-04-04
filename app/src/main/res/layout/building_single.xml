@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="horizontal">
+
+    <ImageView android:id="@+id/imageBack"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView android:id="@+id/textBuildName"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="@string/building_name"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <ImageView android:id="@+id/imageViewMap"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/map_pin"/>
+    
+    <TextView android:id="@+id/textViewButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="@string/view_on_map"
+        android:textSize="18dp"
+        android:textColor="#FF406880"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="280dp"/>
+    
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/buildings"/>
+
+    <TextView android:id="@+id/imageTasks"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:background="@color/orange"
+        android:text="@string/image_5_tasks"
+        android:textColor="@color/white"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp" />
+
+
+    <TextView android:id="@+id/imageName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="410dp"
+        android:text="Building name"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/adress_buildg"
+        android:textSize="20dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="21dp"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/descript_building"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="@string/read_more"
+        android:textSize="15dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="275dp"
+        android:textColor="#FF406880"/>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginLeft="355dp"
+        android:src="@drawable/path"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Contact person"
+        android:textColor="#FF406880"
+        android:textSize="20dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/krug"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="20dp"/>
+    
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="75dp"
+        android:text="@string/name_person"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="22dp"
+        android:text="@string/number"
+        android:textSize="14dp"
+        android:layout_marginTop="780dp"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/white"/>
+    
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="850dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/tickets2"/>
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="850dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/supplier"/>
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="850dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/documents"/>
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="920dp"
+        android:text="@string/text_tickets"
+        android:textColor="#FF406880"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="30dp"
+        android:textColor="#FF406880"
+        android:text="@string/supplier_button"
+        android:textSize="18dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="920dp"/>
+
+    <TextView android:id="@+id/textViewDocuments"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:textColor="#FF406880"
+        android:textSize="18dp"
+        android:text="@string/documents_button"
+        android:layout_marginTop="920dp"
+        android:layout_marginLeft="320dp"/>
+    
+
+
+
+</FrameLayout>

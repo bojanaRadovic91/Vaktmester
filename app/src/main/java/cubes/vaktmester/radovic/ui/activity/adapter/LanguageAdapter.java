@@ -57,10 +57,10 @@ public class LanguageAdapter extends ArrayAdapter<String> {
 
         ImageView imageView = row.findViewById(R.id.imageView);
         if (position == 0){
-            imageView.setImageResource(R.drawable.logo);
+            imageView.setImageResource(R.drawable.drawable_englandsvg);
         }
         else if (position == 1){
-            imageView.setImageResource(R.drawable.ic_launcher_background);
+            imageView.setImageResource(R.drawable.drawable_norwaysvg);
 
         }
 

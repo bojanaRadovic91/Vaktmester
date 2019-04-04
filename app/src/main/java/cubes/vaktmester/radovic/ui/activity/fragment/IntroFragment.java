@@ -16,26 +16,23 @@ public class IntroFragment extends Fragment {
 
     public String titleString;
     public String descriptionString;
-    public  int imageRes;
+    public  int imageResource;
+    public int oval1_full;
+    public  int oval2;
+    public  int Oval3;
 
-    public static IntroFragment getInstance(String title, String description, int imageRes){
-        IntroFragment fragment = new IntroFragment();
-        fragment.titleString = title;
-        fragment.descriptionString = description;
-        fragment.imageRes = imageRes;
-        return fragment;
-
-    }
 
     public IntroFragment(){
 
     }
 
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_intro, container, false);
+
 
     }
 
@@ -49,10 +46,13 @@ public class IntroFragment extends Fragment {
 
         txtTitle.setText(titleString);
         txtDesc.setText(descriptionString);
-        imageView.setImageResource(imageRes);
+        imageView.setImageResource(imageResource);
+
 
 
     }
+
+
 
 
 }

@@ -16,5 +16,22 @@
 
         Then your all set!</string>
     <string name="forgot_your_password">Forgot your password?</string>
+    <string name="text_buildings">Buildings</string>
+    <string name="text_timesheet">Timesheet</string>
+    <string name="text_tickets">Tickets</string>
+    <string name="text_chat">Chat</string>
+    <string name="build_name">Building name</string>
+    <string name="adress_buildg">Bul. Mihaila Pupina 90,
+        Novi Beograd</string>
+    <string name="building_name">Building name</string>
+    <string name="view_on_map">View on map</string>
+    <string name="descript_building">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using It is a long established fact that a reader will be distracted by the readable content established fact that a reader…</string>
+    <string name="read_more">Read more</string>
+    <string name="name_person">John Doe</string>
+    <string name="number">+123 456 789 00</string>
+    <string name="image_5_tasks">5 tasks</string>
+    <string name="title_activity_building_map">Map</string>
+    <string name="supplier_button">Supplier</string>
+    <string name="documents_button">Documents</string>
 
 </resources>
